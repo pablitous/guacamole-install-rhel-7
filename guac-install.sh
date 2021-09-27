@@ -1074,10 +1074,10 @@ createdirs
 createdirs () {
 {
 	rm -fr ${INSTALL_DIR}
-	mkdir -v /etc/guacamole
+	mkdir -vp /etc/guacamole
 	mkdir -vp ${INSTALL_DIR}{client,selinux}
 	mkdir -vp ${LIB_DIR}{extensions,lib}
-	mkdir -v /usr/share/tomcat/.guacamole/
+	mkdir -vp /usr/share/tomcat/.guacamole/
 } &
 s_echo "y" "${Bold}Creating Required Directories...    "; spinner
 
