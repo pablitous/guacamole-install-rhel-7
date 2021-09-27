@@ -1494,7 +1494,7 @@ if [ $INSTALL_CAS = true ]; then cassetup; fi
 if [ $INSTALL_OPENID = true ]; then openidsetup; fi
 if [ $INSTALL_CUST_EXT = true ]; then custsetup; fi
 
-selinuxsettings
+#selinuxsettings
 }
 
 ######  LDAP SETUP  ##################################################
