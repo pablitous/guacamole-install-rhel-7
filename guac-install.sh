@@ -133,7 +133,7 @@ if [ $GUAC_SOURCE == "Git" ]; then
 	GUAC_SERVER="guacamole-server.git"
 	GUAC_CLIENT="guacamole-client.git"
 	MAVEN_MAJOR_VER=${MAVEN_VER:0:1}
-	MAVEN_URL="https://www-us.apache.org/dist/maven/maven-${MAVEN_MAJOR_VER}/${MAVEN_VER}/binaries/"
+	MAVEN_URL="https://apache.zero.com.ar/maven/maven-${MAVEN_MAJOR_VER}/${MAVEN_VER}/binaries/"
 	MAVEN_FN="apache-maven-${MAVEN_VER}"
 	MAVEN_BIN="${MAVEN_FN}-bin.tar.gz"
 else # Stable release
@@ -1045,7 +1045,7 @@ s_echo "y" "${Bold}Installing Required Dependencies"
 
 # Install Required Packages
 {
-	yum install -y cairo-devel ffmpeg-devel freerdp-devel freerdp-plugins gcc gnu-free-mono-fonts libjpeg-turbo-devel libjpeg-turbo-official libpng-devel libssh2-devel libtelnet-devel libvncserver-devel libvorbis-devel libwebp-devel libwebsockets-devel mariadb mariadb-server nginx openssl-devel pango-devel policycoreutils-python pulseaudio-libs-devel setroubleshoot tomcat uuid-devel
+	yum install -y cairo-devel ffmpeg-devel freerdp-devel freerdp-plugins gcc gnu-free-mono-fonts libjpeg-turbo-devel libjpeg-devel libtool uuid-devel libjpeg-turbo-official libpng-devel libssh2-devel libtelnet-devel libvncserver-devel libvorbis-devel libwebp-devel libwebsockets-devel mariadb mariadb-server nginx openssl-devel pango-devel policycoreutils-python pulseaudio-libs-devel setroubleshoot tomcat uuid-devel
 } &
 s_echo "n" "${Reset}-Installing required packages...    "; spinner
 
