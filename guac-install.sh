@@ -32,7 +32,7 @@ SCRIPT_BUILD="2020_07_16" # Scripts Date for last modified as "yyyy_mm_dd"
 ADM_POC="Local Admin, admin@admin.com"  # Point of contact for the Guac server admin
 
 # Versions
-GUAC_STBL_VER="1.2.0" # Latest stable version of Guac from https://guacamole.apache.org/releases/
+GUAC_STBL_VER="1.3.0" # Latest stable version of Guac from https://guacamole.apache.org/releases/
 MYSQL_CON_VER="8.0.21" # Working stable release of MySQL Connecter J
 MAVEN_VER="3.6.3" # Latest stable version of Apache Maven
 
