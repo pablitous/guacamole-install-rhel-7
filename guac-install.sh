@@ -1619,13 +1619,6 @@ custsetup () {
 s_echo "y" "${Bold}Copying Custom Guacamole Extension to Extensions Dir...    "; spinner
 }
 
-###### FIREWALL SETTINGS  ############################################
-firewallsettings (){
-	firewall-cmd --permanent --add-service=https
-	firewall-cmd --permanent --add-service=http
-	firewall-cmd --permanent --add-port=8080/tcp
-	firewall-cmd --reload
-}
 ######  SELINUX SETTINGS  ############################################
 selinuxsettings () {
 {
