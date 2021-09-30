@@ -1078,6 +1078,7 @@ createdirs () {
 	mkdir -vp ${INSTALL_DIR}{client,selinux}
 	mkdir -vp ${LIB_DIR}{extensions,lib}
 	mkdir -vp /usr/share/tomcat/.guacamole/
+	mkdir -vp /etc/nginx/conf.d
 } &
 s_echo "y" "${Bold}Creating Required Directories...    "; spinner
 
